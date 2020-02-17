@@ -1,5 +1,7 @@
 #![feature(test)]
 
+extern crate test;
+
 use clap::App;
 use clap::{Arg, ArgSettings};
 use std::io::Cursor;

@@ -1,5 +1,7 @@
 #![feature(test)]
 
+extern crate test;
+
 use clap::App;
 use test::Bencher;
 
